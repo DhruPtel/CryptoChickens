@@ -276,7 +276,7 @@ class Main extends Component {
                   <div className="icesmall2"></div>
                   <div className="header">
                     <h2>The collection</h2>
-                    <a href="https://opensea.io/collection/chicken-derby" target="_blank" rel="noopener noreferrer" className="btn">
+                    <a href="https://opensea.io/collection/crypto-chickens-fools" target="_blank" rel="noopener noreferrer" className="btn">
                       Show more
                     </a>
                   </div>
@@ -396,7 +396,7 @@ class Main extends Component {
                   <a href="https://twitter.com/CryptoChickens1" target="_blank">
                     <img className="icon" src={twitter} alt="" />
                   </a>
-                  <a href="" target="_blank">
+                  <a href="https://opensea.io/collection/crypto-chickens-fools" target="_blank">
                     <img className="icon" src={opensea} alt="" />
                   </a>
                   <a href="https://discord.gg/PN8w2qtf" target="_blank">

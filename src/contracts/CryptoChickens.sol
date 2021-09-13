@@ -10,14 +10,14 @@ contract CryptoChickens is ERC721Full, Ownable {
   uint256 public constant MAX_MEMEBREED = 45;
   uint256 public constant MAX_RAREPACK = 260;
   uint256 public constant MAX_COMMONPACK = 300;
-  uint256 public constant reveal_timestamp = 1631497200000;
+  uint256 public constant reveal_timestamp = 1631833200000;
   uint256 public constant MEMEPRICE = 1 * 10**17;
   uint256 public constant RAREPRICE = 2 * 10**16;
   uint256 public constant COMMONPRICE = 1 * 10**15;
   uint256 public constant BREEDERFEE = 1 * 10**15;
 
-  address payable public constant creatorAddress = 0xd2A68f34cFbe1901338999D4508428F7DB1B692F;
-  address payable public constant donationAddress = 0xF1bCe759Fc679B573A24FB2C0a1AB62ce34f2aF0;
+  address payable public constant creatorAddress = 0x3B9da5BC36CDd2f99b0eD6A2fa8F35Af74bc2b7F;
+  address payable public constant donationAddress = 0xE619DfA3c6C44E00cbc3558C7f2E2e2e30a5ce51;
 
   uint256 public MEMEPACK = 0;
   uint256 public MEMEBREED = 0;
@@ -27,7 +27,7 @@ contract CryptoChickens is ERC721Full, Ownable {
   event CreateMemeChicken(uint256 indexed id);
   event CreateRareChicken(uint256 indexed id);
   event CreateCommonChicken(uint256 indexed id);
-  constructor() ERC721Full("CryptoChickens", "MEMORY") public {
+  constructor() ERC721Full("CryptoChickens", "CHICKEN") public {
   }
 
   function totalMint() public view returns (uint256) {
